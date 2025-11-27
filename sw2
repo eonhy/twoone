@@ -1,0 +1,4 @@
+r, g, b = 120, 200, 50
+hex_color = "#{:02X}{:02X}{:02X}".format(r, g, b)
+
+print("HEX 색상:", hex_color)
